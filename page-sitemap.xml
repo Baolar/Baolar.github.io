@@ -7,14 +7,14 @@
     </url>
     
     <url>
-        <loc>http://www.baolar.com/404.html</loc>
-        <lastmod>2019-08-16T12:43:34.000Z</lastmod>
+        <loc>http://www.baolar.com/about/</loc>
+        <lastmod>2020-01-22T11:51:01.339Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.baolar.com/about/</loc>
+        <loc>http://www.baolar.com/404.html</loc>
         <lastmod>2019-08-16T12:43:34.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
