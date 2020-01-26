@@ -3,12 +3,17 @@
 
     <sitemap>
         <loc>http://www.baolar.com/post-sitemap.xml</loc>
-        <lastmod>2020-01-23T10:23:32.587Z</lastmod>
+        <lastmod>2020-01-26T06:36:03.523Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://www.baolar.com/page-sitemap.xml</loc>
-        <lastmod>2020-01-22T11:51:01.339Z</lastmod>
+        <lastmod>2020-01-22T11:51:01.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://www.baolar.com/tag-sitemap.xml</loc>
+        <lastmod>2020-01-26T06:36:03.523Z</lastmod>
     </sitemap>
 
 </sitemapindex>
