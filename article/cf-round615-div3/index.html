@@ -239,35 +239,7 @@ n为3的倍数，且分得A,B,C后都大于0。</p>
 <p>思路：<br>
 尽可能地覆盖最小的元素。每次加若干次就是对x取模。</p>
 <p>源代码：</p>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-using namespace std;
-const int maxn = 5e5 + 5;
-int vis[maxn];
-
-int main() {
-    int q, x, n;
-
-    while(scanf(&quot;%d%d&quot;, &amp;q, &amp;x) != EOF) {
-        int ans = 0, cas = 0;
-        for(int t = 0; t &lt; q; t++) {
-            scanf(&quot;%d&quot;, &amp;n);
-            vis[n%x]++;
-            for(int i = ans; i &lt;= q; i++) {
-                cas = i / x;
-                if(vis[i%x] &lt;= cas) {
-                    ans = i;
-                    break;
-                }
-            }
-
-            printf(&quot;%d\n&quot;, ans);
-        }
-    }
-
-    return 0;
-}
-```cpp
-</code></pre>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxn = <span class="number">5e5</span> + <span class="number">5</span>;</span><br><span class="line"><span class="keyword">int</span> vis[maxn];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> q, x, n;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;q, &amp;x) != EOF) &#123;</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>, cas = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> t = <span class="number">0</span>; t &lt; q; t++) &#123;</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</span><br><span class="line">            vis[n%x]++;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> i = ans; i &lt;= q; i++) &#123;</span><br><span class="line">                cas = i / x;</span><br><span class="line">                <span class="keyword">if</span>(vis[i%x] &lt;= cas) &#123;</span><br><span class="line">                    ans = i;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, ans);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
                 
 
