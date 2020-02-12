@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://www.baolar.com/article/deep-breadth-first-search/</loc>
+        <lastmod>2020-02-12T03:35:32.768Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.baolar.com/article/bipartite-matching/</loc>
         <lastmod>2020-02-08T11:04:36.417Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
     <url>
         <loc>http://www.baolar.com/article/cf-round617-div3/</loc>
         <lastmod>2020-02-06T06:36:42.576Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.baolar.com/article/deep-breadth-first-search/</loc>
-        <lastmod>2020-02-03T07:36:41.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
