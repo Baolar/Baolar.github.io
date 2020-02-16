@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://www.baolar.com/article/segment-tree/</loc>
+        <lastmod>2020-02-16T10:43:40.216Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.baolar.com/article/cf-round618-div2/</loc>
         <lastmod>2020-02-15T11:47:46.677Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -57,14 +65,6 @@
     <url>
         <loc>http://www.baolar.com/article/binary-indexed-tree/</loc>
         <lastmod>2020-01-28T08:57:27.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.baolar.com/article/segment-tree/</loc>
-        <lastmod>2020-01-28T04:44:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
