@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://www.baolar.com/article/cf-round628-div2/</loc>
+        <lastmod>2020-03-15T10:44:15.330Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.baolar.com/article/minimum-spanning-tree/</loc>
         <lastmod>2020-03-04T12:58:13.151Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
     <url>
         <loc>http://www.baolar.com/article/union-find/</loc>
         <lastmod>2020-02-24T08:41:55.892Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.baolar.com/article/cf-round620-div2/</loc>
-        <lastmod>2020-02-17T15:11:20.833Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
