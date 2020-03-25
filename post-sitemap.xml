@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://www.baolar.com/article/kmp/</loc>
+        <lastmod>2020-03-25T12:41:10.035Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.baolar.com/article/deep-breadth-first-search/</loc>
+        <lastmod>2020-03-25T11:19:21.792Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.baolar.com/article/minimum-spanning-tree/</loc>
         <lastmod>2020-03-19T11:51:50.015Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +65,6 @@
     <url>
         <loc>http://www.baolar.com/article/cf-round618-div2/</loc>
         <lastmod>2020-02-17T04:04:19.389Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.baolar.com/article/deep-breadth-first-search/</loc>
-        <lastmod>2020-02-12T03:35:32.768Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
